@@ -4,123 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sathi</title>
-
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        .div1{
-            position: absolute;
-            left: 40%;
-            top: 20%;
-            border: 1px solid none;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
-            height: 350px;
-            width: 300px;
-        }
-        .div1 h1{
-            margin-bottom: 8px;
-        }
-        .div1 p{
-            font-size: 13px;
-            margin-bottom: 10px;
-            letter-spacing: 0.3px;
-            color: rgba(0, 0, 0, 0.8);
-        }
-        .div1 input{
-            width: 95%;
-            height: 30px;
-            margin: 10px 10px 10px 0px;
-            padding: 5px;
-            border: 1px solid gray;
-            border-radius: 3px;
-        }
-        .div1 a{
-            text-decoration: none;
-            font-size: 14px;
-            letter-spacing: 0.5px;
-            color: rgb(52, 52, 241);
-        }
-
-        .signIn{
-            margin-top: 18px;
-            width: 100%;
-            height: 40px;
-            background-color: rgb(52, 52, 241);
-            color: white;
-            border: none;
-            border-radius: 17px;
-            padding: 5px;
-            cursor: pointer;
-            transition: background-color 0.25s,
-                opacity 0.15s;
-        }
-        .signIn:hover{
-            background-color: rgb(15, 15, 227);
-        }
-        .signIn:active{
-            opacity: 0.7;
-        }
-        .or{
-            text-align: center;
-            margin: 10px;
-        }
-
-
-        .signInApple{
-            background-color: white;
-            width: 100%;
-            height: 40px;
-            border: 1px solid gray;
-            border-radius: 17px;
-            color: rgba(0, 0, 0, 0.647);
-            letter-spacing: 0.1x;
-            font-weight: bold;
-            cursor: pointer;
-        }
-        .signInApple img{
-            height: 18px;
-            position: absolute;
-            transform: translate(-30px, -3px);
-            transition: background-color 0.25s,
-                opacity 0.15s;
-        }
-        .signInApple:hover{
-            background-color: rgba(128, 128, 128, 0.148);
-        }
-        .signInApple:active{
-            opacity: 0.7;
-        }
-
-
-        .div2{
-            position: absolute;
-            top: 77%;
-            left: 44%;
-        }
-        .div2 p{
-            display: inline;
-        }
-        .div2 a{
-            margin-left: 5px;
-            text-decoration: none;
-            color: rgb(52, 52, 241);
-            
-        }
-
-        a:hover{
-            color: blue;
-        }
-    </style>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div class="div1">
-        <h1>Sign Up</h1>
         <h1>Sign in</h1>
         <p>Stay updated on your professional world</p>
         <input type="text" name="pname" id="name" placeholder="Email or Phone">
@@ -131,7 +18,7 @@
         <div class="orline">
             <p class="line1"></p>
             <p class="or">or</p>
-            <p class="lin2"></p>
+            <p class="line2"></p>
         </div>
         <button class="signInApple"><img src="./apple.png">Sign in with Apple</button>
     </div>
